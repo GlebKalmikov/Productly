@@ -7,9 +7,9 @@
   <title>Document</title>
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -17,28 +17,57 @@
     <div class="logo">
       <img src="images/Logo.svg" alt="logo">
     </div>
-    <nav>
-      <ul>
-        <li><a href="#">Product</a></li>
-        <li><a href="#">Customers</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Resources</a></li>
+      <ul class="ul-container">
+        <li><a class="text-style" href="#">Product</a></li>
+        <li><a class="text-style" href="#">Customers</a></li>
+        <li><a class="text-style" href="#">Pricing</a></li>
+        <li><a class="text-style" href="#">Resources</a></li>
       </ul>
-    </nav>
-    <div class="sign-blok">
-      <button class="buttonIn">Sign In</button>
-      <button class="buttonUp">Sign Up</button>
+    <div class="button-blok">
+      <button class="button button-outline">Sign In</button>
+      <button class="button">Sign Up</button>
     </div> 
   </div>
   </header>
 
   <main>
-    <section>
-      <div class="container">
-        <h2 class="heading-h2 text-center"> 
-        </h2>
-
+    <section class="size-section">
+      <div class="container-text">
+        <h1 class="heading-h1">The Design Thinking<br> superpowers
+        </h1>
+          <p class="paragraph-style">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+          <button class="button">Get started</button>
       </div>
+      <img src="/images/Image.svg" alt="people">
+    </section>
+    <section class="size-section-second">
+      <h2 class="heading-h2 taxt-center ">We design tools to unveil <br>
+        your superpowers</h2>
+        <div class="card-box">
+          <div class="blok-tests">
+            <img src="/images/icon-1.svg" alt="">
+            <h3>First click tests</h3>
+            <p>While most people enjoy casino gambling,</p>
+          </div>
+          <div class="blok-tests">
+            <img src="/images/icon-2.svg" alt="">
+            <h3>Design surveys</h3>
+            <p>Sports betting, lottery and bingo playing for the fun</p>
+          </div>
+          <div class="blok-tests">
+            <img src="/images/icon-3.svg" alt="">
+            <h3>Preference tests</h3>
+            <p>The Myspace page defines the individual.</p>
+          </div>
+          <div class="blok-tests">
+            <img src="/images/icon-4.svg" alt="">
+            <h3>Five second tests</h3>
+            <p>Personal choices and the overall personality of the person. </p>
+          </div>
+        </div>
+         <button class="button button-center">Sign up Now</button>
+          <img class="img-bg" src="/images/bg.svg" alt="bg">
+       
     </section>
   </main>
   <footer></footer>
