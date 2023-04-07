@@ -100,11 +100,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.blok-tests {
-  width: 270px;
-  height: 174px;
-  margin: 0;
-}
 .heading-h1 {
  font-size: 44px;
  font-weight: 700;
